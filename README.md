@@ -1,4 +1,4 @@
-# BlueSpringsHotel
+# Blue Springs Hotel Website Project
 
 Project:        Assessment 3 for Web Page Development
 
