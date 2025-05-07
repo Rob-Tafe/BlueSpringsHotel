@@ -1,4 +1,10 @@
 # BlueSpringsHotel
-Assessment 3 for Web Page Development
-Robert Sewell
-P214430
+<!-- 
+
+Project:        Assessment 3 for Web Page Development
+
+Author:         Robert Sewell
+
+Student ID:     P214430
+
+-->
