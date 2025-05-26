@@ -11,10 +11,30 @@
             <!-- Styles here are unique to index.htm and so will not be included in styles.css -->
             <style>
 
+                h1 {
+                    text-align: center;
+                }
+
+                #index-logo {
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    width: 80px;
+                    height: auto;
+                }
+
                 body {
                     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+                    background-color: #1BB9E4;
+                    background-image: url("../BlueSpringsHotel/Images/AT3 - Hotel index image.avif");
+                    background-position: center top 80px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    
                 }
+
+                
 
             </style>
             <!-- <link rel="stylesheet" href="styles.css"> -->
@@ -25,8 +45,13 @@
         <body>
 
             <header>
-                <h1> Blue Springs Hotel</h1>
-                <img src="../BlueSpringsHotel/Images/Blue Springs.png" alt="Blue Springs Hotel logo" width="200">
+                <div>
+
+                    <h1> Blue Springs Hotel</h1>
+
+                    <img src="../BlueSpringsHotel/Images/Blue Springs.png" alt="Blue Springs Hotel logo" width="80" id="index-logo">
+
+                </div>
 
             </header>
 
@@ -34,7 +59,42 @@
             <main>
                 <h2> Introduction</h2>
                 <p> Welcome to the Blue Springs Hotel, a peaceful getaway from the hustle and bustle of everyday life.</p>
-                <img src="../BlueSpringsHotel/Images/AT3 - Hotel index image.avif" alt="A peaceful day at the pool, surrounded by trees, the ocean, and the open sky" width="640" >
+                <!-- <p id="index-cover-image"><img src="../BlueSpringsHotel/Images/AT3 - Hotel index image.avif" alt="A peaceful day at the pool, surrounded by trees, the ocean, and the open sky" width="640" > </p> -->
+
+                <!-- Standard nav menu -->
+                 <div class="nav-div-one">
+                    <nav>
+                        <ul class="index-nav-ul">
+                            <li>
+                                <a href="../index.htm">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="../acknowledge.htm">Acknowledgement of Country</a>
+                            </li>
+
+                            <li>
+                                <a href="staff.htm">Staff</a>
+                            </li>
+
+                            <li>
+                                <a href="cossack.htm">Cossack</a>
+                            </li>
+
+                            <li>
+                                <a href="interest.htm">Interests</a>
+                            </li>
+
+                            <li>
+                                <a href="activities.htm">Activities</a>
+                            </li>
+
+                            <li>
+                                <a href="guestbook.htm">Guest Book</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 
             </main>
 
