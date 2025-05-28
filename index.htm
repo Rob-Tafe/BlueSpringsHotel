@@ -40,9 +40,15 @@
                     align-self: center;
                     font-weight: bold;
 
+                    width: 50%;
+                    margin-left: 25%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+
                     text-shadow: -1px 0px #FFE066, 0px -1px #FFE066, 1px 0px #E76F51, 0px 1px #E76F51;
                     border:2px #8AA5B1 solid;
-                    /* background-color: #1BB9E4; */
+                    border-radius: 50px;
+                    background-color: #1BB9E4;
                 }
 
                 ul {
@@ -50,34 +56,49 @@
                 }
 
                 .nav-flex {
-                    display: grid;
-                    grid-template-columns: 1fr repeat(2, auto) 1fr;
-                    grid-column-gap: 50px;
+                    display: flex;
+                    flex-direction: row;
+
+
                     justify-items: center;
-                    border: solid black 3px;
                 }
 
                 .nav-div-left {
-                    border: 2px #E76F51 solid;
-                    width: 100%;
-                    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 80%;
+                    align-items: center;
                 }
 
                 .nav-div-right {
-                    border: 2px #E76F51 solid;
-                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 80%;
+                    margin-top: 5%;
                 }
 
                 .li-left {
                     margin: 30px;
                     text-align: center;
+                    padding: 10%;
+                    border: 2px solid #8AA5B1;
+                    border-radius: 20px;
+                    background-color: #FFE066;
 
+                    width: 60%;
                 }
 
                 .li-right {
                     margin: 30px;
                     text-align: center;
-                    
+                    padding: 5%;
+                    border: 2px solid #8AA5B1;
+                    border-radius: 20px;
+                    background-color: #FFE066;
+
+                    width: 60%;
                 }
 
 
