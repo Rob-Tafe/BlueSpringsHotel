@@ -39,7 +39,7 @@
                     color: black;
                     text-align: center;
                     align-self: center;
-
+                    font-weight: bold;
                     text-shadow: -1px 0px #FFE066, 0px -1px #FFE066, 1px 0px #E76F51, 0px 1px #E76F51;
                 }
 
@@ -47,18 +47,34 @@
                     list-style: none;
                 }
 
-                .nav-div-master {
-                    display: flex;
+                .nav-flex {
+                    display: grid;
+                    grid-template-columns: 1fr repeat(2, ) 1fr;
+
+                    align-items: center;
+                    border: solid black 3px;
+                }
+
+                .nav-div-left {
+                    border: 2px #E76F51 solid;
+                }
+
+                .nav-div-right {
+                    border: 2px #E76F51 solid;
                 }
 
                 .li-left {
-                display: flex;
-                    align-items: left;
+
                 }
 
                 .li-right {
-                    display: flex;
-                    align-items: right;
+
+                    
+                }
+
+                ul {
+                    
+                    
                 }
                 
 
@@ -85,40 +101,53 @@
                     <p> Welcome to the Blue Springs Hotel, a peaceful getaway <br>
                         from the hustle and bustle of everyday life.</p>
                     <!-- <p id="index-cover-image"><img src="../BlueSpringsHotel/Images/AT3 - Hotel index image.avif" alt="A peaceful day at the pool, surrounded by trees, the ocean, and the open sky" width="640" > </p> -->
-                 </div>
+                </div>
 
 
                 <!-- Standard nav menu -->
                     <nav>
-                        <ul class="index-nav-ul">
-                            <li id="li-left">
-                                <a href="index.htm">Home</a>
-                            </li>
 
-                            <li id="li-right">
-                                <a href="acknowledge.htm">Acknowledgement of Country</a>
-                            </li>
+                        <div class="nav-flex">
+                            <div class="nav-div-left">
+                                <ul>
+                                    <li class="li-left">
+                                        <a href="index.htm">Home</a>
+                                    </li>
 
-                            <li id="li-left">
-                                <a href="staff.htm">Staff</a>
-                            </li>
+                                    <li class="li-left">
+                                        <a href="staff.htm">Staff</a>
+                                    </li>
 
-                            <li id="li-right">
-                                <a href="cossack.htm">Cossack</a>
-                            </li>
+                                    <li class="li-left">
+                                        <a href="interest.htm">Interests</a>
+                                    </li>
 
-                            <li id="li-left">
-                                <a href="interest.htm">Interests</a>
-                            </li>
+                                    <li class="li-left">
+                                        <a href="guestbook.htm">Guest Book</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
 
-                            <li id="li-right">
-                                <a href="activities.htm">Activities</a>
-                            </li>
+                            <div class="nav-div-right">
+                                <ul>
+                                    <li class="li-right">
+                                        <a href="acknowledge.htm">Acknowledgement of Country</a>
+                                    </li>
 
-                            <li id="li-left">
-                                <a href="guestbook.htm">Guest Book</a>
-                            </li>
-                        </ul>
+                                    <li class="li-right">
+                                        <a href="cossack.htm">Cossack</a>
+                                    </li>
+
+                                    <li class="li-right">
+                                        <a href="activities.htm">Activities</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
                     </nav>
 
             </main>
