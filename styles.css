@@ -7,3 +7,12 @@ P214430
 
 /* CSS styles page for Blue SPrings Hotel website */
 
+ul {
+    list-style: none;
+}
+
+.nav-prime {
+    display: flex;
+    flex-direction: row;
+
+}
