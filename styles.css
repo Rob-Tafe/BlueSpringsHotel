@@ -16,3 +16,17 @@ ul {
     flex-direction: row;
 
 }
+
+.nav-li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: #235789;
+    border-right: solid 2px black;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+
+
+}
