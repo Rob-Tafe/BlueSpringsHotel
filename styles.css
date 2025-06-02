@@ -14,19 +14,45 @@ ul {
 .nav-prime {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    align-items: center;
+    
+
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
 
 }
 
 .nav-li {
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
 
     background-color: #235789;
     border-right: solid 2px black;
-    border-top: solid 2px black;
+    
     border-bottom: solid 2px black;
 
+    min-width: 50px;
+    min-height: 35px;
 
+    
+}
+
+#nav-spacer {
+    flex-grow: 1;
+}
+
+#nav-mm-icon {
+    align-items: center;
+}
+
+#nav-first-li {
+    border-left: solid 2px black;
 }
