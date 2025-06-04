@@ -17,7 +17,7 @@ html, body {
     height: 100vh;
     display: grid;
     grid-template-columns: [col1-start] 1fr [col1-end col2-start] 2fr [col2-end col3-start] 1fr [col3-end end];
-    grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 6fr [row3-end];
+    grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 6fr [row3-end row4-start] 4fr [row4-end];
     border: 1px solid black;
     margin: 0;
     padding: 0;
