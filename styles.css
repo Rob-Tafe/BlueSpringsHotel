@@ -7,11 +7,21 @@ P214430
 
 /* CSS styles page for Blue Springs Hotel website */
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .main-grid-container {
+    width: 100vw;
+    height: 100vh;
     display: grid;
     grid-template-columns: [col1-start] 1fr [col1-end col2-start] 2fr [col2-end col3-start] 1fr [col3-end end];
-    grid-template-rows: [row1-start] 3fr [row1-end row2-start] 1fr [row2-end row3-start] 6fr [row3-end];
+    grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 6fr [row3-end];
     border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .main-grid-title {
@@ -19,9 +29,12 @@ P214430
     grid-column-end: col2-end;
     grid-row-start: row1-start;
     grid-row-end: row1-end;
-    justify-self: center;
-    align-self: center;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
     border: 1px solid black;
+    margin: 0;
+    padding: 0;
 }
 
 .main-grid-navbar {
@@ -29,9 +42,12 @@ P214430
     grid-column-end: col3-end;
     grid-row-start: row2-start;
     grid-row-end: row2-end;
-    justify-self: center;
-    align-self: auto;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
     border: 1px solid black;
+    margin: 0;
+    padding: 0;
 }
 
 .main-grid-content {
@@ -39,9 +55,12 @@ P214430
     grid-column-end: col3-end;
     grid-row-start: row3-start;
     grid-row-end: row3-end;
-    justify-self: center;
-    align-self: center;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
     border: 1px solid black;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -66,7 +85,7 @@ ul {
     right: 0;
 }
 
-/*.nav-li {
+.nav-li {
     padding-top: 15px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -76,7 +95,7 @@ ul {
     border-bottom: solid 2px black;
     min-width: 50px;
     min-height: 35px;
-}*/
+}
 
 /*li a {
     font-size: 3vh;
@@ -93,13 +112,13 @@ ul {
 
 /*li a:hover {
     background-color: #8AA5B1;
-}
+}*/
 
 #nav-spacer {
     flex-grow: 1;
 }
 
-#nav-mm-icon {
+/*#nav-mm-icon {
     align-items: center;
 }
 
