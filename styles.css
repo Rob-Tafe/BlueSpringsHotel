@@ -29,10 +29,6 @@ ul {
 }
 
 .nav-li {
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
 
     background-color: #235789;
     border-right: solid 2px black;
@@ -41,8 +37,6 @@ ul {
 
     min-width: 50px;
     min-height: 35px;
-
-    
 }
 
 #nav-spacer {
