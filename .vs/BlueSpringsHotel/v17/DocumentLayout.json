@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\index.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\acknowledge.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:acknowledge.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\activities.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:activities.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\interest.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:interest.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\cossack.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cossack.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\staff.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:staff.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.htm",
+              "DocumentMoniker": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\index.htm",
+              "RelativeDocumentMoniker": "index.htm",
+              "ToolTip": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\index.htm",
+              "RelativeToolTip": "index.htm",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvx4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:02:49.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "acknowledge.htm",
+              "DocumentMoniker": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\acknowledge.htm",
+              "RelativeDocumentMoniker": "acknowledge.htm",
+              "ToolTip": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\acknowledge.htm",
+              "RelativeToolTip": "acknowledge.htm",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwEoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:02:52.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "staff.htm",
+              "DocumentMoniker": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\staff.htm",
+              "RelativeDocumentMoniker": "staff.htm",
+              "ToolTip": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\staff.htm",
+              "RelativeToolTip": "staff.htm",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:02:56.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cossack.htm",
+              "DocumentMoniker": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\cossack.htm",
+              "RelativeDocumentMoniker": "cossack.htm",
+              "ToolTip": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\cossack.htm",
+              "RelativeToolTip": "cossack.htm",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:02:53.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "interest.htm",
+              "DocumentMoniker": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\interest.htm",
+              "RelativeDocumentMoniker": "interest.htm",
+              "ToolTip": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\interest.htm",
+              "RelativeToolTip": "interest.htm",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:02:54.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "activities.htm",
+              "DocumentMoniker": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\activities.htm",
+              "RelativeDocumentMoniker": "activities.htm",
+              "ToolTip": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\activities.htm",
+              "RelativeToolTip": "activities.htm",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-04T01:02:53.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\styles.css",
+              "RelativeDocumentMoniker": "styles.css",
+              "ToolTip": "C:\\Users\\p214430\\source\\repos\\BlueSpringsHotel\\styles.css",
+              "RelativeToolTip": "styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T01:02:43.884Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

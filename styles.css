@@ -5,7 +5,7 @@ P214430
 26/05/2025
 */
 
-/* CSS styles page for Blue SPrings Hotel website */
+/* CSS styles page for Blue Springs Hotel website */
 
 ul {
     list-style: none;
@@ -55,4 +55,9 @@ ul {
 
 #nav-first-li {
     border-left: solid 2px black;
+}
+
+.main-grid {
+    display: grid;
+
 }
