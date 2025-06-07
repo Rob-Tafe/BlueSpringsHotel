@@ -14,14 +14,14 @@ html, body {
 }
 
 .main-grid-container {
-    width: auto;
-    height: auto;
     display: grid;
     grid-template-columns: [col1-start] 1fr [col1-end col2-start] 2fr [col2-end col3-start] 1fr [col3-end end];
     grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 6fr [row3-end row4-start] 4fr [row4-end];
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: auto;
+    height: auto;
 }
 
 .main-grid-title {
@@ -32,6 +32,7 @@ html, body {
     justify-self: stretch;
     align-self: stretch;
     text-align: center;
+    /* background-color: #1BB9E4; */
 }
 
 .main-grid-navbar {
