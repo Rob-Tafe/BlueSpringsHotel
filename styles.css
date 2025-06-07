@@ -63,31 +63,40 @@ html, body {
     justify-self: stretch;
     align-self: stretch;
     text-align: center;
-    
+    /* Sub-grid */
     display: grid;
-    grid-template-columns: subgrid;
+    grid-template-columns: [scol1-start] 1fr [scol1-end scol2-start] 1fr [scol2-end scol3-start] 1fr [scol3-end end];
     grid-template-rows: [srow1-start] 200px [srow1-end srow2-start] 200px [srow2-end srow3-start] 200px [srow3-end srow4-start] 200px [srow4-end srow5-start] 200px [srow5-end];
 }
 
 .sub-grid-mid-col-left {
     display: grid;
-    grid-column-start: col2-start;
-    grid-column-end: col2-end;
+    grid-column-start: scol2-start;
+    grid-column-end: scol2-end;
     align-items: center;
     text-align: left;
 }
 
 .sub-grid-mid-col-right {
     display: grid;
-    grid-column-start: col2-start;
-    grid-column-end: col2-end;
+    grid-column-start: scol2-start;
+    grid-column-end: scol2-end;
     align-items: center;
     text-align: right;
 }
 
+.sub-grid-left-col {
+    grid-column-start: scol1-start;
+    grid-column-end: scol1-end;
+    justify-self: right;
+    margin-right: 15px;
+}
+
 .sub-grid-right-col {
-    grid-column-start: col3-start;
-    grid-column-end: col3-end;
+    grid-column-start: scol3-start;
+    grid-column-end: scol3-end;
+    justify-self: left;
+    margin-left: 15px;
 }
 
 .sub-grid-srow1 {
@@ -142,6 +151,16 @@ ul {
     min-height: 35px;
     max-width: stretch;
     flex-grow: 1;
+}
+
+.active {
+    background-color: #2A2AA8;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.staff-portrait {
+    border: solid 2px black;
 }
 
 li a {
