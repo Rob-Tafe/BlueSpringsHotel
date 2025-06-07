@@ -19,7 +19,6 @@ html, body {
     display: grid;
     grid-template-columns: [col1-start] 1fr [col1-end col2-start] 2fr [col2-end col3-start] 1fr [col3-end end];
     grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 6fr [row3-end row4-start] 4fr [row4-end];
-    border: 1px solid black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,9 +32,6 @@ html, body {
     justify-self: stretch;
     align-self: stretch;
     text-align: center;
-    border: 1px solid black;
-    margin: 0;
-    padding: 0;
 }
 
 .main-grid-navbar {
@@ -46,9 +42,6 @@ html, body {
     justify-self: stretch;
     align-self: stretch;
     text-align: center;
-    border: 1px solid black;
-    margin: 0;
-    padding: 0;
 }
 
 .main-grid-content {
@@ -59,9 +52,6 @@ html, body {
     justify-self: stretch;
     align-self: stretch;
     text-align: center;
-    border: 1px solid black;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -71,7 +61,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*    background-color: #2A2AA8;*/
 }
 
 .nav-prime {
@@ -124,10 +113,3 @@ li a:hover {
     align-items: center;
 }
 
-#nav-first-li {
-    border-left: solid 2px black;
-}
-
-header {
-
-}*/
