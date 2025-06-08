@@ -44,7 +44,6 @@ html, body {
     grid-row-end: row1-end;
     justify-self: stretch;
     align-self: stretch;
-    text-align: center;
     background-color: #1BB9E4;
 }
 
