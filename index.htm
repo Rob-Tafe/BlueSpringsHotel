@@ -38,7 +38,7 @@
                     background-repeat: no-repeat;
                 }
 
-                .roboto-font-title {
+                .roboto-font {
                     font-family: "Roboto", sans-serif;
                 }
 
@@ -47,16 +47,17 @@
                     text-align: center;
                     align-self: center;
                     font-weight: bold;
-
                     width: 50%;
                     margin-left: 25%;
                     margin-top: 5%;
                     margin-bottom: 5%;
-
-                    text-shadow: -1px 0px #FFE066, 0px -1px #FFE066, 1px 0px #E76F51, 0px 1px #E76F51;
                     border:2px #8AA5B1 solid;
                     border-radius: 50px;
                     background-color: #1BB9E4;
+                }
+
+                .text-shadow {
+                    text-shadow: -2px 2px #E5E3D9, 2px -2px #E5E3D9, -2px -2px #E5E3D9, 2px 2px #E5E3D9;
                 }
 
                 ul {
@@ -66,8 +67,6 @@
                 .nav-flex {
                     display: flex;
                     flex-direction: row;
-
-
                     justify-items: center;
                 }
 
@@ -94,7 +93,6 @@
                     border: 2px solid #8AA5B1;
                     border-radius: 20px;
                     background-color: #FFE066;
-
                     width: 60%;
                 }
 
@@ -105,7 +103,6 @@
                     border: 2px solid #8AA5B1;
                     border-radius: 20px;
                     background-color: #FFE066;
-
                     width: 60%;
                 }
 
@@ -116,11 +113,11 @@
 
 
 
-        <body>
+        <body class="roboto-font">
 
             <header>
                 <div>
-                    <h1 class="roboto-font-title"> Blue Springs Hotel</h1>
+                    <h1 class="text-shadow"> Blue Springs Hotel</h1>
                     <img src="../Images/Blue Springs.png" onerror="this.onerror=null; this.src='../BlueSpringsHotel/Images/Blue Springs.png'" alt="Blue Springs Hotel logo" width="80" id="index-logo">
                 </div>
             </header>
@@ -128,7 +125,7 @@
 
             <main>
                 
-                <div class="intro-div">
+                <div class="intro-div text-shadow">
                     <h2> Introduction</h2>
                     <p> Welcome to the Blue Springs Hotel, a peaceful getaway <br>
                         from the hustle and bustle of everyday life.</p>
