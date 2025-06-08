@@ -28,7 +28,7 @@ html, body {
 
 .main-grid-container {
     display: grid;
-    grid-template-columns: [col1-start] 1fr [col1-end col2-start] 2fr [col2-end col3-start] 1fr [col3-end end];
+    grid-template-columns: [col1-start] 1fr [col1-end col2-start] 3fr [col2-end col3-start] 1fr [col3-end end];
     grid-template-rows: [row1-start] 80px [row1-end row2-start] 90px [row2-end row3-start] auto [row3-end];
     margin: 0;
     padding: 0;
@@ -38,6 +38,26 @@ html, body {
 }
 
 .main-grid-title {
+    grid-column-start: col2-start;
+    grid-column-end: col2-end;
+    grid-row-start: row1-start;
+    grid-row-end: row1-end;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
+    background-color: #1BB9E4;
+}
+
+.main-grid-title-logo {
+    grid-column-start: col1-start;
+    grid-column-end: col1-end;
+    grid-row-start: row1-start;
+    grid-row-end: row1-end;
+    justify-self: start;
+    align-self: center;
+}
+
+.main-grid-title-background {
     grid-column-start: col1-start;
     grid-column-end: col3-end;
     grid-row-start: row1-start;
@@ -163,6 +183,14 @@ ul {
     min-height: 35px;
     max-width: stretch;
     flex-grow: 1;
+}
+
+.nav-li-cap-left {
+    border-left: solid 2px black;
+}
+
+.nav-li-cap-right {
+    border-right: solid 2px black;
 }
 
 .active {
