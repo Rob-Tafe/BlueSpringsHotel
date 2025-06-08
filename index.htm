@@ -8,6 +8,12 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             
+            <!-- Embed links for Roboto font -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            
+
             <!-- Styles here are unique to index.htm and so will not be included in styles.css -->
             <style>
 
@@ -25,13 +31,15 @@
                 }
 
                 body {
-                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
                     background-color: #1BB9E4;
                     background-image: url('../BlueSpringsHotel/Images/AT3 - Hotel index image.png'), url('../Images/AT3 - Hotel index image.png');
                     background-position: center top 80px;
                     background-size: cover;
                     background-repeat: no-repeat;
+                }
+
+                .roboto-font-title {
+                    font-family: "Roboto", sans-serif;
                 }
 
                 .intro-div {
@@ -112,7 +120,7 @@
 
             <header>
                 <div>
-                    <h1> Blue Springs Hotel</h1>
+                    <h1 class="roboto-font-title"> Blue Springs Hotel</h1>
                     <img src="../Images/Blue Springs.png" onerror="this.onerror=null; this.src='../BlueSpringsHotel/Images/Blue Springs.png'" alt="Blue Springs Hotel logo" width="80" id="index-logo">
                 </div>
             </header>
