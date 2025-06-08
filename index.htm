@@ -19,7 +19,7 @@
 
                 h1 {
                     text-align: center;
-                    text-shadow: -2px 2px #8AA5B1, 2px -2px #8AA5B1, -2px -2px #8AA5B1, 2px 2px #8AA5B1;
+                    text-shadow: -2px 2px #E5E3D9, 2px -2px #E5E3D9, -2px -2px #E5E3D9, 2px 2px #E5E3D9;
                 }
 
                 #index-logo {
@@ -38,8 +38,14 @@
                     background-repeat: no-repeat;
                 }
 
-                .roboto-font {
+                .roboto-font-title {
                     font-family: "Roboto", sans-serif;
+                    font-weight: 800;
+                }
+
+                .roboto-font-body {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
                 }
 
                 .intro-div {
@@ -57,11 +63,20 @@
                 }
 
                 .text-shadow {
-                    text-shadow: -2px 2px #E5E3D9, 2px -2px #E5E3D9, -2px -2px #E5E3D9, 2px 2px #E5E3D9;
+                    text-shadow: -1px 1px #E5E3D9, 1px -1px #E5E3D9, -1px -1px #E5E3D9, 1px 1px #E5E3D9;
                 }
 
                 ul {
                     list-style: none;
+                }
+
+                li a {
+                    color: black;
+                    text-decoration: none;
+                }
+
+                li a:hover {
+                    text-shadow: -1px 1px #E76F51, 1px -1px #E76F51, -1px -1px #E76F51, 1px 1px #E76F51;
                 }
 
                 .nav-flex {
@@ -82,7 +97,8 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    width: 80%;
+                    justify-content: left;
+                    width: 100%;
                     margin-top: 5%;
                 }
 
@@ -113,11 +129,11 @@
 
 
 
-        <body class="roboto-font">
+        <body class="roboto-font-body">
 
             <header>
                 <div>
-                    <h1 class="text-shadow"> Blue Springs Hotel</h1>
+                    <h1 class=" roboto-font-title"> Blue Springs Hotel</h1>
                     <img src="../Images/Blue Springs.png" onerror="this.onerror=null; this.src='../BlueSpringsHotel/Images/Blue Springs.png'" alt="Blue Springs Hotel logo" width="80" id="index-logo">
                 </div>
             </header>
