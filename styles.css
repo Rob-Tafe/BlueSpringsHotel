@@ -271,6 +271,7 @@ tr {
 }
 
 .table-row-head {
+    font-size: larger;
     background-color: #1BB9E4;
 }
 
@@ -284,9 +285,13 @@ tr {
     border: 1px solid;
 }
 
+video {
+    width: 450px;
+    border-radius: 25px;
+}
+
 iframe {
-    margin: 15px auto;
-    max-width: 100%;
-    width: 640px;
-    border: none;
+    width: 450px;
+    height: 300px;
+    border-radius: 25px;
 }
