@@ -295,3 +295,7 @@ iframe {
     height: 300px;
     border-radius: 25px;
 }
+
+article {
+    margin: 30px;
+}
