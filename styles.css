@@ -238,3 +238,8 @@ li a:hover {
         display: none;
     }
 }
+
+table {
+    border: 1px solid;
+    
+}
