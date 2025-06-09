@@ -118,8 +118,6 @@ html, body {
 }
 
 .sub-grid-mid-col-mid {
-    display: flex;
-    flex-direction: column;
     grid-column-start: scol2-start;
     grid-column-end: scol2-end;
     align-items: center;
