@@ -122,6 +122,8 @@ html, body {
     grid-column-end: scol2-end;
     align-items: center;
     text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .sub-grid-left-col {
@@ -160,6 +162,18 @@ html, body {
 .sub-grid-srow5 {
     grid-row-start: srow5-start;
     grid-row-end: srow5-end;
+}
+
+.main-grid-content-subgrid-int {
+    grid-column-start: col1-start;
+    grid-column-end: col3-end;
+    grid-row-start: row3-start;
+    grid-row-end: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -239,5 +253,40 @@ li a:hover {
 
 table {
     border: 1px solid;
-    
+    margin: 15px auto;
+    max-width: 90%;
+    width: auto;
+}
+
+tr {
+    border: 2px solid;
+}
+
+.table-row-alt1:hover  {
+    background-color: #E76F51;
+}
+
+.table-row-alt2:hover {
+    background-color: #FFE066;
+}
+
+.table-row-head {
+    background-color: #1BB9E4;
+}
+
+.table-row-alt1 {
+    background-color: #E5E3D9;
+    border: 1px solid;
+}
+
+.table-row-alt2 {
+    background-color: #b4dbe9;
+    border: 1px solid;
+}
+
+iframe {
+    margin: 15px auto;
+    max-width: 100%;
+    width: 640px;
+    border: none;
 }
