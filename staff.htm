@@ -7,6 +7,80 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="styles.css">
+
+            <style>
+                /* Popup styles */
+
+                /* CSS for the canvas on which the popup will appear
+                Essentially it creates the canvas which is 
+                - the full size of the screen. zero pixels from the top, bottom, left and right
+                - is fixed so will not move regardless of scrolling
+                - Initially it is hidden so has no effect on the main page 
+                */
+
+                .overlay {
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                }
+
+
+                /* When the overlay is targeted by the link on the main page it is made visible and blocks 
+                any action on the rest of the page as it becomes the most recently rendered item 
+                and sits over the top of everything */
+
+                .overlay:target {
+                    visibility: visible;
+                }
+
+
+                /* The popup has becomes visible as it is part of the overlay
+                The position relative is required for the close link to be positioned 
+                relative to the popup rather than the main page */
+
+                .popup {
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    margin: 70px auto;
+                    padding: 20px;
+                    background: rgb(247, 186, 186);
+                    width: 30%;
+                    position: relative;
+                }
+
+                .popup h2 {
+                    margin-top: 0;
+                    color: rgb(40, 40, 40);
+                }
+
+                .popup p {
+                    margin-top: 0;
+                    color: rgb(109, 109, 109);
+                }
+
+
+                /* The close link is positioned in the top right hand corner using absolute 
+                positioning relative to the popup */
+
+                .popup .close {
+                    position: absolute;
+                    top: 10px;
+                    right: 20px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: rgb(77, 77, 77);
+                }
+
+                .popup .close:hover {
+                    color: #0F0;
+                }
+
+                /* End of popup styles */
+            </style>
         </head>
 
 
