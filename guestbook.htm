@@ -228,26 +228,31 @@
                             <script>
                                 document.getElementById('revTable').addEventListener('click', function(event) {
                                     if (event.target.tagName.toLowerCase() === 'td') {
+                                        
                                         var clickedRowData = event.target.parentElement;
-                                        var rowDataArray = [];
+                                        var table = document.getElementById('revTable');
 
-                                        for (var i = 0; i < clickedRowData.cells.length; i++) {
-                                            rowDataArray.push(clickedRowData.cells[i].textContent);
+                                        if (clickedRowData.rowIndex !== 0) {
+                                            var rowDataArray = [];
+
+                                            for (var i = 0; i < clickedRowData.cells.length; i++) {
+                                                rowDataArray.push(clickedRowData.cells[i].textContent);
+                                            }
+
+                                            var rowVar = rowDataArray;
+
+                                            var formId = document.getElementById("firstname");
+                                            formId.value = rowDataArray[1];
+
+                                            var formId = document.getElementById("surname");
+                                            formId.value = rowDataArray[2];
+
+                                            var formId = document.getElementById("countrycity");
+                                            formId.value = rowDataArray[3];
+
+                                            var formId = document.getElementById("comment");
+                                            formId.value = rowDataArray[4];
                                         }
-
-                                        var rowVar = rowDataArray;
-
-                                        var formId = document.getElementById("firstname");
-                                        formId.value = rowDataArray[1];
-
-                                        var formId = document.getElementById("surname");
-                                        formId.value = rowDataArray[2];
-
-                                        var formId = document.getElementById("countrycity");
-                                        formId.value = rowDataArray[3];
-
-                                        var formId = document.getElementById("comment");
-                                        formId.value = rowDataArray[4];
                                     }
                                 });
                                 
