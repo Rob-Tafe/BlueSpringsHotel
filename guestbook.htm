@@ -162,32 +162,69 @@
 
                 </script>
 
-                <div class="main-grid-form-container">
+                <div class="main-grid-content">
 
-                    <main class="main-grid-form-container-left">
+                    <main class="main-grid-form-container">
+
+                        <div class="main-grid-form-container-left">
                         
-                        <form name="HotelReviewForm" method="post" action="actionpage.php" class="main-grid-form-container-left" onsubmit="return ReviewCheck()">
+                            <form name="HotelReviewForm" method="post" action="actionpage.php" onsubmit="return ReviewCheck()">
 
-                            <label for="title" class="roboto-font-title title-label">Leave a Review!</label><br>
+                                <label for="title" class="roboto-font-title title-label">Leave a Review!</label><br>
 
-                            <!-- ID field, hidden from view -->
-                            <input type="hidden" id="id" name="id"><br>
-                            
-                            <label for="firstname">First Name:</label><br>
-                            <input type="text" id="firstname" name="firstname"><br>
+                                <!-- ID field, hidden from view -->
+                                <input type="hidden" id="id" name="id"><br>
+                                
+                                <label for="firstname">First Name:</label><br>
+                                <input type="text" id="firstname" name="firstname"><br>
 
-                            <label for="surname">Surname:</label><br>
-                            <input type="text" id="surname" name="surname"><br>
+                                <label for="surname">Surname:</label><br>
+                                <input type="text" id="surname" name="surname"><br>
 
-                            <label for="countrycity">Country/City:</label><br>
-                            <input type="text" id="countrycity" name="countrycity"><br>
+                                <label for="countrycity">Country/City:</label><br>
+                                <input type="text" id="countrycity" name="countrycity"><br>
 
-                            <label for="comment">Comment:</label><br>
-                            <textarea rows="4" type="textarea" id="comment" name="comment"></textarea><br>
+                                <label for="comment">Comment:</label><br>
+                                <textarea rows="4" type="textarea" id="comment" name="comment"></textarea><br>
 
-                            <input id="submitButton" type="submit" value="  Submit  ">
+                                <input id="submitButton" type="submit" value="  Submit  ">
 
-                        </form>
+                            </form>
+
+                        </div>
+
+                        <div  class="main-grid-form-container-right">
+
+                            <table>
+
+                                <tr class="table-row-head">
+                                    <td>ID</td>
+                                    <td>First Name</td>
+                                    <td>Surname</td>
+                                    <td>Country/City</td>
+                                    <td>Comment</td>
+                                </tr>
+
+                                <tr class="table-row-alt1">
+                                    <td>1</td>
+                                    <td>John</td>
+                                    <td>Williams</td>
+                                    <td>USA, Ulysses, New York</td>
+                                    <td>Great Food</td>
+                                </tr>
+
+                                <tr class="table-row-alt2">
+                                    <td>2</td>
+                                    <td>Amanda</td>
+                                    <td>Suarez</td>
+                                    <td>Spain, Oveido, Asturias</td>
+                                    <td>Relaxing atmosphere</td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+
                     </main>
                 </div>
             </div>

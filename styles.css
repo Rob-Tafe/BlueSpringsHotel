@@ -125,12 +125,12 @@ html, body {
     justify-self: center;
     align-self: center;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .main-grid-form-container-right {
     grid-column-start: fcol2-start;
-    grid-column-end: fcol2-end;
+    grid-column-end: end;
     grid-row-start: frow1-start;
     grid-row-end: auto;
     justify-self: center;
