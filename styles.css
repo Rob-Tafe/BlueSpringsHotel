@@ -102,14 +102,19 @@ html, body {
 }
 
 .main-grid-form-container {
+    grid-column-start: col1-start;
+    grid-column-end: col3-end;
+    grid-row-start: row3-start;
+    grid-row-end: auto;
     display: grid;
     grid-template-columns: [fcol1-start] 1fr [fcol1-end fcol2-start] 1fr [fcol2-end end];
     grid-template-rows: [frow1-start] auto [frow1-end end];
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width: auto;
     height: auto;
+    border: 2px solid black;
 }
 
 .main-grid-form-container-left {
@@ -120,6 +125,7 @@ html, body {
     justify-self: center;
     align-self: center;
     text-align: center;
+    border: 2px solid black;
 }
 
 .main-grid-form-container-right {
