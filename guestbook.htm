@@ -100,29 +100,96 @@
 
                 </nav>
 
-                <main class="main-grid-content">
-                    
-                    <form name="HotelReviewForm" method="post" action="INSERT ACTION HERE">
+                <script>
 
-                        <label for="id">ID:</label><br>
-                        <input type="text" id="id" name="id"><br></label>
+                    function ReviewCheck(){
+                        let firstname = document.forms["HotelReviewForm"]["firstname"].value;
+                        if (firstname == "") {
+                            alert("No First Name entered, please enter a First Name.");
+                            return false;
+                        }
+                        if (firstname.includes("<")) {
+                            alert("Please do not use '<' in the input fields.");
+                            return false;
+                        }
+                        if (firstname.includes(">")) {
+                            alert("Please do not use '>' in the input fields.");
+                            return false;
+                        }
+
+                        let surname = document.forms["HotelReviewForm"]["surname"].value;
+                        if (surname == "") {
+                            alert("No Surname entered, please enter a Surname.");
+                            return false;
+                        }
+                        if (surname.includes("<")) {
+                            alert("Please do not use '<' in the input fields.");
+                            return false;
+                        }
+                        if (surname.includes(">")) {
+                            alert("Please do not use '>' in the input fields.");
+                            return false;
+                        }
+
+                        let countrycity = document.forms["HotelReviewForm"]["countrycity"].value;
+                        if (countrycity == "") {
+                            alert("No Country/City entered, please enter a Country/City.");
+                            return false;
+                        }
+                        if (countrycity.includes("<")) {
+                            alert("Please do not use '<' in the input fields.");
+                            return false;
+                        }
+                        if (countrycity.includes(">")) {
+                            alert("Please do not use '>' in the input fields.");
+                            return false;
+                        }
+
+                        let comment = document.forms["HotelReviewForm"]["comment"].value;
+                        if (comment == "") {
+                            alert("No Comment entered, please enter a Comment.");
+                            return false;
+                        }
+                        if (comment.includes("<")) {
+                            alert("Please do not use '<' in the input fields.");
+                            return false;
+                        }
+                        if (comment.includes(">")) {
+                            alert("Please do not use '>' in the input fields.");
+                            return false;
+                        }
+                    }
+
+                </script>
+
+                <div class="main-grid-content">
+
+                    <main class="main-grid-form-container">
                         
-                        <label for="firstname">First Name:</label><br>
-                        <input type="text" id="firstname" name="firstname"><br></label>
+                        <form name="HotelReviewForm" method="post" action="actionpage.php" class="main-grid-form-container-left" onsubmit="return ReviewCheck()">
 
-                        <label for="surname">Surname:</label><br>
-                        <input type="text" id="surname" name="surname"><br></label>
+                            <label for="title" class="roboto-font-title title-label">Leave a Review!</label><br>
 
-                        <label for="countrycity">Country/City:</label><br>
-                        <input type="text" id="countrycity" name="countrycity"><br></label>
+                            <!-- ID field, hidden from view -->
+                            <input type="hidden" id="id" name="id"><br>
+                            
+                            <label for="firstname">First Name:</label><br>
+                            <input type="text" id="firstname" name="firstname"><br>
 
-                        <label for="comment">Comment:</label><br>
-                        <input type="text" id="comment" name="comment"><br></label>
+                            <label for="surname">Surname:</label><br>
+                            <input type="text" id="surname" name="surname"><br>
 
-                        <input id="submitButton" type="submit" value="  Submit  ">
+                            <label for="countrycity">Country/City:</label><br>
+                            <input type="text" id="countrycity" name="countrycity"><br>
 
-                    </form>
-                </main>
+                            <label for="comment">Comment:</label><br>
+                            <textarea rows="4" type="textarea" id="comment" name="comment"></textarea><br>
+
+                            <input id="submitButton" type="submit" value="  Submit  ">
+
+                        </form>
+                    </main>
+                </div>
             </div>
         </body>
     </html>

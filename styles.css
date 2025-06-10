@@ -101,6 +101,37 @@ html, body {
     grid-template-rows: [srow1-start] 200px [srow1-end srow2-start] 200px [srow2-end srow3-start] 200px [srow3-end srow4-start] 200px [srow4-end srow5-start] 200px [srow5-end];
 }
 
+.main-grid-form-container {
+    display: grid;
+    grid-template-columns: [fcol1-start] 1fr [fcol1-end fcol2-start] 1fr [fcol2-end end];
+    grid-template-rows: [frow1-start] auto [frow1-end end];
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
+
+.main-grid-form-container-left {
+    grid-column-start: fcol1-start;
+    grid-column-end: fcol1-end;
+    grid-row-start: frow1-start;
+    grid-row-end: auto;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.main-grid-form-container-right {
+    grid-column-start: fcol2-start;
+    grid-column-end: fcol2-end;
+    grid-row-start: frow1-start;
+    grid-row-end: auto;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
 .sub-grid-mid-col-left {
     display: grid;
     grid-column-start: scol2-start;
@@ -298,4 +329,78 @@ iframe {
 
 article {
     margin: 30px;
+}
+
+label {
+    background-color: white;
+    font-size: 0.8em;
+}
+
+form {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.form-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid #333;
+    padding: 1vw;
+}
+
+input {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+select {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+option {
+    background-color: white;
+    padding: 5px;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+textarea {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1em;
+    min-width: auto;
+    margin-bottom: 15px;
+}
+
+#submitButton {
+    background-color: rgb(190, 190, 190);
+}
+
+#submitButton:hover {
+    background-color: rgb(190, 190, 190);
+    border: 1px solid darkgrey;
+}
+
+.title-label {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.comment-field {
+    height: 100px;
 }
