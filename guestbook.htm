@@ -101,7 +101,7 @@
                 </nav>
 
                 <script>
-
+                    <!-- This script is responsible for ensuring no input areas are empty or contain '<' or '>' -->
                     function ReviewCheck(){
                         let firstname = document.forms["HotelReviewForm"]["firstname"].value;
                         if (firstname == "") {
@@ -162,15 +162,17 @@
 
                 </script>
 
+                
+
                 <div class="main-grid-content">
 
                     <main class="main-grid-form-container">
 
                         <div class="main-grid-form-container-left">
                         
-                            <form name="HotelReviewForm" method="post" action="actionpage.php" onsubmit="return ReviewCheck()">
+                            <form name="HotelReviewForm" method="post" action="actionpage.php">
 
-                                <label for="title" class="roboto-font-title title-label">Leave a Review!</label><br>
+                                <label id="title" class="roboto-font-title title-label">Leave a Review!</label><br>
 
                                 <!-- ID field, hidden from view -->
                                 <input type="hidden" id="id" name="id"><br>
@@ -185,7 +187,7 @@
                                 <input type="text" id="countrycity" name="countrycity"><br>
 
                                 <label for="comment">Comment:</label><br>
-                                <textarea rows="4" type="textarea" id="comment" name="comment"></textarea><br>
+                                <textarea rows="4" id="comment" name="comment"></textarea><br>
 
                                 <input id="submitButton" type="submit" value="  Submit  ">
 
@@ -195,7 +197,7 @@
 
                         <div  class="main-grid-form-container-right">
 
-                            <table>
+                            <table id="revTable">
 
                                 <tr class="table-row-head">
                                     <td>ID</td>
@@ -222,6 +224,35 @@
                                 </tr>
 
                             </table>
+
+                            <script>
+                                document.getElementById('revTable').addEventListener('click', function(event) {
+                                    if (event.target.tagName.toLowerCase() === 'td') {
+                                        var clickedRowData = event.target.parentElement;
+                                        var rowDataArray = [];
+
+                                        for (var i = 0; i < clickedRowData.cells.length; i++) {
+                                            rowDataArray.push(clickedRowData.cells[i].textContent);
+                                        }
+
+                                        var rowVar = rowDataArray;
+
+                                        var formId = document.getElementById("firstname");
+                                        formId.value = rowDataArray[1];
+
+                                        var formId = document.getElementById("surname");
+                                        formId.value = rowDataArray[2];
+
+                                        var formId = document.getElementById("countrycity");
+                                        formId.value = rowDataArray[3];
+
+                                        var formId = document.getElementById("comment");
+                                        formId.value = rowDataArray[4];
+                                    }
+                                });
+                                
+
+                            </script>
 
                         </div>
 
