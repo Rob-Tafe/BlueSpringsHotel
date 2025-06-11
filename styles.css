@@ -49,11 +49,11 @@ html, body {
 }
 
 .main-grid-title-logo {
-    grid-column-start: col1-start;
-    grid-column-end: col1-end;
+    grid-column-start: col3-start;
+    grid-column-end: col3-end;
     grid-row-start: row1-start;
     grid-row-end: row1-end;
-    justify-self: start;
+    justify-self: end;
     align-self: center;
 }
 
