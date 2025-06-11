@@ -104,7 +104,7 @@
                     <!-- This script is responsible for ensuring no input areas are empty or contain '<' or '>' -->
                     function ReviewCheck(){
                         let firstname = document.forms["HotelReviewForm"]["firstname"].value;
-                        if (firstname == "") {
+                        if (firstname === "") {
                             alert("No First Name entered, please enter a First Name.");
                             return false;
                         }
@@ -118,7 +118,7 @@
                         }
 
                         let surname = document.forms["HotelReviewForm"]["surname"].value;
-                        if (surname == "") {
+                        if (surname === "") {
                             alert("No Surname entered, please enter a Surname.");
                             return false;
                         }
@@ -132,7 +132,7 @@
                         }
 
                         let countrycity = document.forms["HotelReviewForm"]["countrycity"].value;
-                        if (countrycity == "") {
+                        if (countrycity === "") {
                             alert("No Country/City entered, please enter a Country/City.");
                             return false;
                         }
@@ -146,7 +146,7 @@
                         }
 
                         let comment = document.forms["HotelReviewForm"]["comment"].value;
-                        if (comment == "") {
+                        if (comment === "") {
                             alert("No Comment entered, please enter a Comment.");
                             return false;
                         }
@@ -256,7 +256,6 @@
                                     }
                                 });
                                 
-
                             </script>
 
                         </div>
