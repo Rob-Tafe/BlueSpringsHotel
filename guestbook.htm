@@ -101,10 +101,10 @@
                 </nav>
 
                 <script>
-                    <!-- This script is responsible for ensuring no input areas are empty or contain '<' or '>' -->
+                    // This script is responsible for ensuring no input areas are empty or contain '<' or '>'
                     function ReviewCheck(){
                         let firstname = document.forms["HotelReviewForm"]["firstname"].value;
-                        if (firstname === "") {
+                        if (firstname == "") {
                             alert("No First Name entered, please enter a First Name.");
                             return false;
                         }
@@ -118,7 +118,7 @@
                         }
 
                         let surname = document.forms["HotelReviewForm"]["surname"].value;
-                        if (surname === "") {
+                        if (surname == "") {
                             alert("No Surname entered, please enter a Surname.");
                             return false;
                         }
@@ -132,7 +132,7 @@
                         }
 
                         let countrycity = document.forms["HotelReviewForm"]["countrycity"].value;
-                        if (countrycity === "") {
+                        if (countrycity == "") {
                             alert("No Country/City entered, please enter a Country/City.");
                             return false;
                         }
@@ -170,7 +170,7 @@
 
                         <div class="main-grid-form-container-left">
                         
-                            <form name="HotelReviewForm" method="post" action="actionpage.php">
+                            <form name="HotelReviewForm" method="post" action="actionpage.php" onsubmit="return ReviewCheck()">
 
                                 <label id="title" class="roboto-font-title title-label">Leave a Review!</label><br>
 
@@ -255,7 +255,7 @@
                                         }
                                     }
                                 });
-                                
+
                             </script>
 
                         </div>
